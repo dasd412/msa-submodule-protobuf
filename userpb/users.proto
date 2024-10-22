@@ -18,6 +18,7 @@ message User{
   string first_name=2;
   string last_name=3;
   int32 age=4;
+  string birthday=5;
 }
 
 message UserGetReply{
